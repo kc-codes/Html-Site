@@ -5,6 +5,13 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1079ad;
 }
 
 h1 {
@@ -61,3 +68,36 @@ li {
 .related {
   list-style: none;
 }
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1079ad;
+  border-bottom: 5px solid #1079ad;
+}
+
+/* Styling Links */
+a:link {
+  color: #1079ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1079ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA */
