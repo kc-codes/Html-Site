@@ -92,7 +92,7 @@ a:visited {
 a:hover {
   color: orangered;
   font-weight: bold;
-  text-decoration: underline dotted orangered;
+  text-decoration: underline underline orangered;
 }
 
 a:active {
@@ -100,4 +100,4 @@ a:active {
   font-style: italic;
 }
 
-/* LVHA */
+/* LVHA--->> Use same sequence always */
