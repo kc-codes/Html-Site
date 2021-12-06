@@ -80,6 +80,9 @@ aside {
 }
 
 /* Styling Links */
+a{
+  transition: all 300ms ease-in-out;
+}
 a:link {
   color: #1079ad;
   text-decoration: none;
